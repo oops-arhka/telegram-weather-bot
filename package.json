@@ -1,0 +1,15 @@
+{
+  "name": "telegram-weather-bot",
+  "version": "1.0.0",
+  "description": "telegram-weather-bot",
+  "main": "bot.js",
+  "scripts": {
+    "start": "DEBUG=* node bot.js"
+  },
+  "dependencies": {
+    "express": "~4.16.4",
+    "dotenv": "^5.0.0",
+    "request": "^2.83.0",
+    "telegraf": "^3.26.0"
+  }
+}
